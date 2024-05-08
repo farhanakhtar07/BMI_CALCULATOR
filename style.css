@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    background-color: whitesmoke;
+}
+.box{
+    
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h-box{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 2rem;
+}
+.w-box{
+    
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box{
+    text-align: center;
+}
+.btn-box button{
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(198, 193, 193);
+    padding: 1rem;
+    box-shadow: 5px 5px gray;
+
+
+}
+.btn-box button:hover{
+    background-color: burlywood;
+    color: white;
+    box-shadow: 10px 10px gray;
+    transition: all .5s linear ;
+}
+.bmi_result{
+    text-align: center;
+    padding: 4rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
